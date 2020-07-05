@@ -78,7 +78,7 @@ def main():
     except:
         print("pass")
         pass
-for _ in range(10): 
-    randtime1 = random.randint(300,600)
+for _ in range(12): 
+    randtime1 = random.randint(250,500)
     time.sleep(randtime1)
     main()
